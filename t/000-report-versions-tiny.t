@@ -50,7 +50,6 @@ sub pmver {
 
 eval { $v .= pmver('Carp','any version') };
 eval { $v .= pmver('Digest::MD5','any version') };
-eval { $v .= pmver('English','any version') };
 eval { $v .= pmver('File::Find','any version') };
 eval { $v .= pmver('File::Slurp','any version') };
 eval { $v .= pmver('File::Spec','any version') };
@@ -61,7 +60,14 @@ eval { $v .= pmver('LWP::UserAgent','any version') };
 eval { $v .= pmver('LWPx::Record::DataSection','any version') };
 eval { $v .= pmver('List::Util','any version') };
 eval { $v .= pmver('Module::Build','0.3601') };
+eval { $v .= pmver('Pod::Coverage::TrustPod','any version') };
 eval { $v .= pmver('Test::More','0.88') };
+eval { $v .= pmver('Test::Pod','1.41') };
+eval { $v .= pmver('Test::Pod::Coverage','1.08') };
+eval { $v .= pmver('base','any version') };
+eval { $v .= pmver('lib','any version') };
+eval { $v .= pmver('strict','any version') };
+eval { $v .= pmver('warnings','any version') };
 
 
 

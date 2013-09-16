@@ -3,7 +3,7 @@ NAME
     back sessions
 
 VERSION
-      This document describes v0.1.0 of Test::LWP::Recorder - released June 07, 2011 as part of Test-LWP-Recorder.
+      This document describes v0.1.1 of Test::LWP::Recorder - released September 16, 2013 as part of Test-LWP-Recorder.
 
 SYNOPSIS
         use Test::LWP::Recorder; 
@@ -146,8 +146,8 @@ SUPPORT
 
     *   CPAN Testers Matrix
 
-        The CPAN Testers Matrix is a website that provides a visual way to
-        determine what Perls/platforms PASSed for a distribution.
+        The CPAN Testers Matrix is a website that provides a visual overview
+        of the test results for a distribution on various Perls/platforms.
 
         <http://matrix.cpantesters.org/?dist=Test-LWP-Recorder>
 
